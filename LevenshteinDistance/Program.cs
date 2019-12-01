@@ -37,7 +37,7 @@ namespace LevenshteinDistance
                 }
             }
 
-            return matrixD[n - 1, m - 1];
+            return matrix[n - 1, m - 1];
         }
     }
 }
